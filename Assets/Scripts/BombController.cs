@@ -38,6 +38,7 @@ public class BombController : MonoBehaviour
     {
         if (bombsRemaining > 0 && Input.GetKeyDown(inputKey)){
             StartCoroutine(PlaceBomb());
+            audioManager.PlaySFX(audioManager.dropBomb);
         }
     }
 

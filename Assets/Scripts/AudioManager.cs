@@ -1,4 +1,4 @@
-giusing UnityEngine;
+using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
@@ -11,6 +11,8 @@ public class AudioManager : MonoBehaviour
     public AudioClip death;
     public AudioClip explode;
     public AudioClip itemPickUp;
+
+    public AudioClip dropBomb;
 
     [Header("-----SFX Volumes-----")]
     [Range(0f, 1f)] public float deathVolume = 1f;
