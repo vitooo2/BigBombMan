@@ -14,6 +14,8 @@ public class AudioManager : MonoBehaviour
 
     public AudioClip dropBomb;
 
+    public AudioClip death2;
+
     [Header("-----SFX Volumes-----")]
     [Range(0f, 1f)] public float deathVolume = 1f;
     [Range(0f, 1f)] public float explodeVolume = 1f;

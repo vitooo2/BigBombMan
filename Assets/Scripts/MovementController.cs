@@ -85,6 +85,7 @@ public class MovementController : MonoBehaviour
 
         audioManager.StopAllSFX();
         audioManager.PlaySFX(audioManager.death);
+        audioManager.PlaySFX(audioManager.death2);
         audioManager.StopMusic();
 
 
